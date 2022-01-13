@@ -1,0 +1,244 @@
+body {
+    font-family: 'Comfortaa', "Open Sans";
+    margin: 0;
+}
+.wrapper {
+    /*/margin: 0 7% 0 7%;/*/
+}
+.head-bg {
+    position: absolute;
+    height: 750px;
+    overflow: hidden;
+    width: 100%;
+}
+.head-bg1 {
+    position: absolute;
+    background-color: #FF005C;
+    width: 999px;
+    height: 915px;
+    left: 808px;
+    top: -212px;
+    border-radius: 100%;
+    margin: 0;
+}
+.wrap {
+    margin: 0 10%;
+}
+.header {
+    padding-top: 10px;
+    position: relative;
+}
+.header_link {
+    width: 168px;
+}
+.head-content {
+    margin-top: 190px;
+}
+.head-content__title {
+    font-size: 64px;
+    color: #FF005C;
+    font-weight: bold;
+}
+.head-content__subtitle {
+    font-size: 40px;
+    color: #26001B;
+}
+.projects {
+    margin-top: 500px;
+}
+.projects-title {
+    display: flex;
+}
+.projects-title__text {
+    background-color: #FF005C;
+    color: #FFFFFF;
+    font-size: 36px;
+    border-bottom-right-radius: 38px;
+    border-top-right-radius: 38px;
+    padding: 13px 136px 13px 10%;
+}
+.projects-title__figure {
+    width: 66px;
+    height: 66px;
+    border-radius: 100%;
+    background-color: #26001B;
+    margin-left: 10px;
+}
+.cards {
+    display: flex;
+    margin-top: 120px;
+    justify-content: space-between;
+}
+.card{
+    width: 50%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px rgba(255, 0, 92, 0.1);
+    border-radius: 10px;
+    text-decoration: none;
+}
+.card-left {
+    margin-right: 20px;
+}
+.card-group__img {
+    width: 100%;
+}
+.card-group__title {
+    font-size: 24px;
+    padding: 40px 0;
+    text-align: center;
+    color: #4F4F4F;
+}
+.content {
+    display: flex;
+}
+.content-group {
+    width: 765px;
+}
+.content-bg {
+    position: absolute;
+    height: 772px;
+    overflow: hidden;
+    width: 100%;
+    margin-top: 180px;
+}
+.content-bg1 {
+    position: absolute;
+    background-color: #FF005C;
+    width: 920px;
+    height: 771px;
+    left: -156px;
+    border-radius: 100%;
+    margin: 0;
+}
+.content-text {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 37px;
+    color: #FFFFFF;
+    width: 481px;
+    position: absolute;
+    margin-top: 487px;
+}
+.illustration-block {
+    margin-top: 300px;
+    margin-left: 120px;
+}
+.illustaration-img {
+    width: 385px;
+}
+.illustration-subtitle {
+    font-size: 14px;
+    color: #828282;
+}
+.summary {
+    margin-top: 255px;
+}
+.summary-title {
+    font-size: 40px;
+    color: #FF005C;
+}
+.summary-info {
+    display: flex;
+}
+.summary-text {
+    width: 70%;
+    font-size: 18px;
+    line-height: 28px;
+    margin-right: 56px;
+    font-family: 'Montserrat', sans-serif;
+}
+.summary-text__p {
+    margin-top: 0;
+}
+.summary-info__img {
+    width: 324px;
+    height: 324px;
+    border-radius: 100%;
+    background: url("img/photo.jpg") no-repeat;
+    background-size: cover;
+}
+.software {
+    display: flex;
+    align-items: center;
+}
+.knowledge-subtitle {
+    font-size: 24px;
+    color: #26001B;
+    margin: 0;
+    padding: 10px 0;
+}
+.software-text {
+    font-size: 18px;
+    color: #26001B;
+    margin-left: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+.skills {
+    margin-top: 10px;
+}
+.skills-items {
+    margin: 0;
+    padding: 0 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+.skills-item {
+    margin-bottom: 8px;
+}
+.skills-item::marker{
+    color: #FF005C;
+    font-size: 30px;
+}
+.contact {
+    margin-top: 40px;
+}
+.contact-title {
+    margin: 0;
+}
+.footer {
+    margin-top: 70px;
+    border-top: 1px solid #ababab;
+}
+.footer-wrap {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    justify-content: space-between;
+}
+.social {
+    display: flex;
+}
+.copyright {
+    color: #26001B;
+    font-size: 14px;
+    margin-right: 10px;
+}
+.social-in {
+    background-color: #FF005C;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+.social-in::after {
+    content: "";
+    display: block;
+    background: url("img/linkedin.svg") no-repeat;
+    width: 18px;
+    height: 18px;
+    margin: 10px 11px;
+}
+.social-be {
+    background-color: #FF005C;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+
+
+@media (max-width: 880px) {
+
+}
+@media (max-width: 500px) {
+
+}
