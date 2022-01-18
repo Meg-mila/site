@@ -851,7 +851,7 @@ body {
         flex-direction: column;
     }
     .wireframes-item {
-        width: 45%;
+        width: 35%;
     }
     .wireframes-item:nth-of-type(even) {
         margin: 20px 0;
@@ -901,8 +901,44 @@ body {
     .nl-logo__img {
         width: 100px;
     }
+    .nl-overview-info {
+        margin-top: 40px;
+    }
+    .nl-items {
+        width: 100%;
+        margin: 0;
+    }
     .nl-item__title{
-
+        font-size: 18px;
+    }
+    .nl-item__text {
+        font-size: 16px;
+    }
+    .nl-image {
+        display: none;
+    }
+    .nl-image-rev {
+        display: none;
+    }
+    .nl-items-rev {
+        width: 100%;
+    }
+    .nl-overview-info-reverse {
+        margin-top: 0;
+    }
+    .nl-title {
+        font-size: 24px;
+        padding-top: 20px;
+    }
+    .research-item {
+        padding: 25px;
+    }
+    .research-subtitle {
+        font-size: 18px;
+    }
+    .NL-mockups__subtitle {
+        font-size: 18px;
+        margin: 15px 0;
     }
 }
 @media (max-width: 650px) {
@@ -1000,6 +1036,43 @@ body {
     .software-text {
         margin-left: 0;
         margin-top: 0;
+    }
+
+    /* NewLife*/
+
+    .nl-title {
+        font-size: 20px;
+    }
+    .nl-item__text {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .nl-item__img::before {
+        width: 40px;
+        height: 40px;
+    }
+    .user-persona {
+        margin-top: 10px;
+    }
+    .research-items {
+        display: block;
+    }
+    .research-item:nth-child(odd) {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .research-item {
+        width: 100%;
+    }
+    .research-subtitle {
+        font-size: 16px;
+    }
+    .research-text {
+        font-size: 14px;
+        margin: 10px 0;
+    }
+    .NL-mockups__subtitle {
+        font-size: 16px;
     }
 }
 @media (max-width: 540px) {
