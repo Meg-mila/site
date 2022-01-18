@@ -3,6 +3,9 @@ body {
     margin: 0;
     overflow-x: hidden;
 }
+.body-font {
+    font-family: 'Montserrat', sans-serif;
+}
 .head-bg {
     position: absolute;
     height: 750px;
@@ -37,7 +40,7 @@ body {
     }
 }
 .wrap {
-    max-width: 1300px;
+    max-width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
     box-sizing: border-box;
@@ -502,49 +505,204 @@ body {
     width: 100%;
 }
 
+/* NewLife */
+
+.nl-content-bg {
+    background-color: #F0F6FF;
+}
+.nl-logo {
+    text-align: center;
+    padding-top: 40px;
+}
+.nl-logo__img {
+    width: 150px;
+}
+.nl-main-img {
+    width: 80%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.nl-main-img-left {
+    width: 80%;
+    margin-right: 20px;
+}
+.nl-main-img-right {
+    width: 20%;
+}
+.nl-main-img__img {
+    width: 100%;
+}
+.nl-overview-info {
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+}
+.nl-items {
+    width: 60%;
+    margin-right: 70px;
+}
+.nl-item {
+    display: flex;
+    margin-bottom: 20px;
+}
+.nl-item__img::before {
+    content: '';
+    display: block;
+    width: 70px;
+    height: 70px;
+    background-image: url("img/NL-marker.svg");
+    margin-right: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.nl-image {
+    width: 30%;
+}
+.nl-item__title {
+    margin: 0;
+    font-weight: 600;
+    font-size: 24px;
+}
+.nl-item__text {
+    margin: 0;
+    padding-top: 5px;
+    line-height: 24px;
+}
+.nl-overview-info-reverse {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+.nl-image-rev {
+    width: 50%;
+    margin-right: 30px;
+}
+.nl-items-rev {
+    width: 50%;
+}
+.nl-background {
+    background: #F0F6FF;
+}
+.wireframes-items-nl {
+    padding-bottom: 40px;
+}
+.nl-title {
+    color: #1B59C6;
+    font-size: 36px;
+    margin: 0;
+    padding-top: 50px;
+}
+.research {
+    margin-top: 30px;
+}
+.research-items {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 80px;
+    padding-top: 40px;
+}
+.research-item {
+    width: 50%;
+    text-align: center;
+    padding: 35px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+.research-item:nth-child(odd) {
+    margin-right: 20px;
+}
+.research-subtitle {
+    margin: 0;
+    font-size: 20px;
+}
+.NL-mockups__subtitle {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1B59C6;
+    margin: 30px 0;
+}
+.NL-mockups-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mockups-item {
+    width: 80%;
+    margin-bottom: 40px;
+}
+.mockups-item__img {
+    width: 100%;
+}
+.NL-mockups-bg {
+    position: absolute;
+    background-color: #F0F6FF;
+    height: 45%;
+    width: 100%;
+    top: 550px;
+}
+.NL-mockups-desktop {
+    position: relative;
+}
+.NL-mockups-des {
+    position: relative;
+}
+.sitemap {
+    margin-bottom: 40px;
+}
+.sitemap-image {
+    width: 100%;
+}
+.sitemap-image__img {
+    width: 100%;
+    background-size: contain;
+}
 
 @media (max-width: 1132px) {
-    .head-bg1 {
-        width: 635px;
-        height: 581px;
-        right: -265px;
-        top: -110px;
-    }
-    .head-content {
-        margin-top: 80px;
-    }
-    .head-content__title {
-        font-size: 56px;
-    }
-    .head-content__subtitle {
-        font-size: 36px;
-    }
-    .projects-title {
-        font-size: 28px;
-        padding-top: 18px;
-    }
-    .projects-wrap {
-        margin-top: 350px;
-    }
-    .content {
-        margin-top: 140px;
-        height: 680px;
-    }
-    .summary {
-        margin-top: 150px;
-    }
-    .summary-title {
-        font-size: 28px;
-    }
-    .summary-info {
-        flex-direction: column-reverse;
-    }
-    .summary-text {
-        width: 100%;
-        margin-right: 0;
-        margin-top: 40px;
-    }
-    /* SafeGarage */
+.head-bg1 {
+    width: 635px;
+    height: 581px;
+    right: -265px;
+    top: -110px;
+}
+.head-content {
+    margin-top: 80px;
+}
+.head-content__title {
+    font-size: 56px;
+}
+.head-content__subtitle {
+    font-size: 36px;
+}
+.projects-title {
+    font-size: 28px;
+    padding-top: 18px;
+}
+.projects-wrap {
+    margin-top: 350px;
+}
+.content {
+    margin-top: 140px;
+    height: 680px;
+}
+.summary {
+    margin-top: 150px;
+}
+.summary-title {
+    font-size: 28px;
+}
+.summary-info {
+    flex-direction: column-reverse;
+}
+.summary-text {
+    width: 100%;
+    margin-right: 0;
+    margin-top: 40px;
+}
+/* SafeGarage */
     .sg-logo__img {
         width: 150px;
     }
@@ -736,6 +894,15 @@ body {
     }
     .mockups-item-reverse {
         flex-direction: column-reverse;
+    }
+
+    /* NewLife*/
+
+    .nl-logo__img {
+        width: 100px;
+    }
+    .nl-item__title{
+
     }
 }
 @media (max-width: 650px) {
