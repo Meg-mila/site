@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <title>Margarita Perepecho</title>
-        <meta name="description" content="I'm Rita, junior UX/UI designer. Design work is always exciting to me because I'm constantly learning new things." />
+        <meta name="description" content="I'm Rita, UX/UI designer. Design work is always exciting to me because I'm constantly learning new things." />
         <meta charset="utF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" type="text/css" href="style.css" />
@@ -12,7 +12,7 @@
         />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
         <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16x16.png">
@@ -26,105 +26,59 @@
         <meta property="og:image" content="/static/main.png" />
     </head>
     <body>
-    <div class="head-bg1"></div>
-        <div class="wrapper">
-            <div class="head-wrap">
-                <header class="header wrap">
-                    <a href="/" class="header_link">
+    <div class="head-bg1">
+        <img src="img/bg-main.svg" alt="background" class="head-bg1_img">
+    </div>
+    <div class="wrapper">
+        <div class="head-wrap">
+            <header class="header wrap">
+                    <a href="index.html" class="header_link">
                         <img src="img/logo.svg" alt="logo" class="logo" />
                     </a>
+                    <div class="menu">
+                        <a href="About.html" class="menu-link">About me</a>
+                        <a href="#anchor-projects" class="menu-link">Projects</a>
+                    </div>
                 </header>
-                <div class="head-content wrap">
-                    <h1 class="head-content__title">Hi :)</h1>
-                    <p class="head-content__subtitle">I’m Rita, junior UX / UI designer</p>
-                </div>
-                <div class="projects-wrap">
-                    <div class="projects-wrap-bg">
-                        <div class="projects-title-wrap"></div>
-                        <div class="projects-title__figure"></div>
+            <div class="head-content wrap">
+                    <div class="head-content_text">
+                        <h1 class="head-content__title">Hi there!</h1>
+                        <p class="head-content__subtitle">I’m Margarita, a UX/UI designer</p>
                     </div>
-                    <div class="projects wrap">
-                        <div class="projects-title">My study projects</div>
-                        <div class="cards">
-                            <a href="SafeGarage" class="card card-left">
-                                <div class="card-group">
-                                    <img src="img/SafeGarage.svg" alt="image" class="card-group__img">
-                                    <div>
-                                        <p class="card-group__title">SafeGarage</p>
-                                    </div>
-                                </div>
-                            </a>
-                            <a href="NewLife" class="card">
-                                <div class="card-group">
-                                    <img src="img/NewLife.svg" alt="image" class="card-group__img">
-                                    <div>
-                                        <p class="card-group__title">NewLife</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
+                    <div class="head-animation">
+                        <img src="img/animation.gif" alt="animation" class="animation">
                     </div>
                 </div>
-                <div class="content">
-                    <div class="content-bg">
-                        <div class="content-bg1"></div>
-                    </div>
-                    <div class="content-group wrap">
-                        <div class="content-text">
-                            Web design taught me not only how to create user-friendly design, but also helped me find a new hobby - creating illustrations and understanding who I am and what I want.
+        </div>
+        <div class="projects-wrap" id="anchor-projects">
+            <div class="content wrap">
+                <div class="cards-section">
+                        <div class="card">
+                            <h2 class="card-subtitle">Mirror</h2>
+                            <p class="card-text">Mirror is an online clothing store.</p>
+                            <p class="card-text">Duration: 5 weeks</p>
+                            <div class="card-link-wrap">
+                                <a href="https://www.behance.net/gallery/144098461/MIRROR-Case-study" target="_blank" class="card-link">Check it out</a>
+                            </div>
                         </div>
-                        <div class="illustration-block">
-                        <img src="img/dinozavr.png" alt="dinozavr" class="illustaration-img">
-                        <p class="illustration-subtitle">This Dino is one of my first illustrations made in Figma</p>
-                    </div>
-                    </div>
-                </div>
-                <div class="summary wrap">
-                    <h2 class="summary-title">Let me tell you about myself</h2>
-                    <div class="summary-info">
-                        <div class="summary-text">
-                            <p class="summary-text__p">In the beginning, I decided to become a front-end developer because I enjoy creating websites. Website creation for me was incredible and fascinating to the point where I even made my first landing pages and one of them is currently live. I then realised that web design for me is easy to understand and is the most important thing for me, as well as it being an interesting and practical experience.
-                            </p>
-                            <p class="summary-text__p">I've spent a year of my education as a front-end developer. This was hard work as we created minigames, responsive web sites, and used JS. For this reason I now know how to create websites. On the other hand, my education showed me that I can obtain information independently and learn it.
-                            </p>
-                            <p class="summary-text__p">This is how I started to study UX / UI design. I have completed the online course "Google UX Design" and continue to improve my web design skills and put them into practice on my own. I publish my projects on behance and create simple and user-friendly designs. My education as a front-end developer helped me understand how to create a design correctly and how I can transfer it to other developers. I really like what I am doing now and it motivates me a lot.
-                            </p>
-                        </div>
-                        <div class="summary-info__img">
+                        <div class="card-image">
+                            <img src="img/mirror-image.svg" alt="laptop image" class="laptop-img">
                         </div>
                     </div>
-                    <div class="knowledge">
-                        <div class="software">
-                            <h3 class="knowledge-subtitle">Software:</h3>
-                            <p class="software-text">Figma, InVision, Photoshop, Flowmapp, Adobe XD
-                            </p>
-                        </div>
-                        <div class="skills">
-                            <h3 class="knowledge-subtitle">Skills</h3>
-                            <ul class="skills-items">
-                                <li class="skills-item">Creation of mobile and web design</li>
-                                <li class="skills-item">Responsive design creation
-                                </li>
-                                <li class="skills-item">Creation of wireframes and mockups</li>
-                                <li class="skills-item">Creation of lo-fi and hi-fi prototypes
-                                </li>
-                                <li class="skills-item">UserFlow</li>
-                                <li class="skills-item">Knowledge of color theory</li>
-                                <li class="skills-item">Knowledge of CSS/HTML, JS(beginner level)</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
-        <footer class="footer">
-            <div class="footer-wrap wrap">
-                <div class="copyright">©2022 Margarita Perepecho</div>
-                <div class="social">
-                    <a href="https://www.linkedin.com/in/margarita-perepecho-94b2a21b8/" class="social-in"></a>
-                    <a href="https://www.behance.net/megmila2778a9" class="social-be"></a>
-                </div>
+        <div class="social-section wrap">
+            <h3 class="title-social">Let’s connect</h3>
+            <div class="social">
+                <a href="https://www.linkedin.com/in/margarita-perepecho/" target="_blank" class="social-in"></a>
+                <a href="https://www.behance.net/megmila2778a9" target="_blank" class="social-be"></a>
+                <a href="https://github.com/Meg-mila" target="_blank" class="social-git"></a>
+                <a href="mailto:meg.mila27@gmail.com" target="_blank" class="social-gmail"></a>
             </div>
+        </div>
+    </div>
+        <footer class="footer">
+            <div class="copyright">© 2022 by Margarita Perepecho</div>
         </footer>
     </body>
 </html>
