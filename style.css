@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Quicksand', sans-serif;
     margin: 0;
@@ -301,6 +305,227 @@ body {
 }
 .experience-item {
     margin-top: 15px;
+}
+
+    /* MIRROR */
+
+.m-name-title {
+    font-weight: 500;
+    font-size: 36px;
+    color: #1B1B1B;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.m-title-text {
+    font-weight: 400;
+    font-size: 24px;
+    color: #1B1B1B;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.m-head {
+    display: flex;
+    margin-top: 80px;
+    align-items: center;
+}
+.m-head-text {
+    width: 50%;
+}
+.m-head-group {
+    margin-top: 50px;
+}
+.m-head-info {
+    display: flex;
+    margin-bottom: 10px;
+}
+.m-info-title {
+    font-weight: 500;
+    font-size: 18px;
+    color: #1B1B1B;
+    margin: 0;
+}
+.m-info-text {
+    font-weight: 400;
+    font-size: 18px;
+    color: #1B1B1B;
+    padding-left: 5px;
+    margin: 0;
+}
+.m-head-image {
+    width: 50%;
+}
+.m-head-img {
+    width: 100%;
+}
+.m-block {
+    margin-top: 90px;
+}
+.m-title {
+    font-weight: 400;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #1B1B1B;
+}
+.m-item {
+    margin-top: 35px;
+}
+.m-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B1B1B;
+    margin: 10px 0 0 0;
+}
+.m-subtitle {
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #1B1B1B;
+    margin: 12px 0;
+}
+.m-list-items {
+    padding-left: 17px;
+    margin-top: 5px;
+}
+.m-list-item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B1B1B;
+    margin-bottom: 5px;
+}
+.m-process-title {
+    padding: 0;
+    font-weight: 600;
+    font-size: 18px;
+    color: #1B1B1B;
+    margin-bottom: 10px;
+}
+.m-process-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.m-process-items {
+    margin-right: 10px;
+}
+.m-process-items:nth-child(5n) {
+    margin-right: 0;
+}
+.m-process-item {
+    list-style: none;
+    font-weight: 400;
+    font-size: 18px;
+    color: #1B1B1B;
+}
+.m-block-item {
+    margin-top: 50px;
+}
+.m-subtitle-1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #1B1B1B;
+}
+.m-empathize-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #1B1B1B;
+}
+.m-indirect {
+    width: 75%;
+    margin: 0 auto;
+}
+.m-empathize-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.m-img {
+    width: 100%;
+}
+.m-empathize-text {
+    margin-right: 10px;
+}
+.m-empathize-group {
+    margin-top: 30px;
+}
+.m-empathize-img {
+    width: 50%;
+}
+.m-block-bg {
+    position: relative;
+}
+.m-bg {
+    position: absolute;
+    background-color: #EED6C4;
+    height: 700px;
+    z-index: -1;
+    width: 100%;
+    top: 20%;
+}
+.m-bg2 {
+    position: absolute;
+    background-color: #EED6C4;
+    height: 300px;
+    z-index: -1;
+    width: 100%;
+    bottom: 8%;
+}
+.m-hifi {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.m-hifi-text {
+    font-weight: 400;
+    font-size: 18px;
+    margin-right: 30px;
+    color: #483434;
+    width: 15%;
+}
+.m-hifi-des {
+    margin-left: 10px;
+    width: 30%;
+}
+.m-hifi-mob {
+    margin-left: 10px;
+    width: 12%;
+}
+.m-test-column {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.m-test-text. {
+    margin-right: 20px;
+}
+.m-btn {
+    background-color: #483434;
+    color: #FFF3E4;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 12px 5px;
+    display: block;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.m-btn:hover {
+    opacity: 90%;
+}
+.m-test-img {
+    width: 60%;
+}
+.m-test-participant {
+    margin-top: 30px;
 }
     /* SafeGarage */
 
@@ -725,6 +950,29 @@ body {
     .extra-info {
         text-align: center;
     }
+    /* MIRROR */
+    .m-name-title {
+        font-size: 24px;
+    }
+    .m-title-text {
+        font-size: 18px;
+    }
+    .m-head-group {
+        margin-top: 30px;
+    }
+    .m-block {
+        margin-top: 60px;
+    }
+    .m-block-item {
+        margin-top: 30px;
+    }
+    .m-subtitle-1 {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .m-empathize-column {
+        margin-top: 0;
+    }
 
 }
 @media (max-width: 750px) {
@@ -786,6 +1034,95 @@ body {
     }
     .about-text {
         line-height: 22px;
+    }
+
+    /* MIRROR */
+    .m-head {
+        margin-top: 50px;
+        flex-direction: column;
+    }
+    .m-head-text {
+        width: 100%;
+    }
+    .m-name-title {
+        font-size: 20px;
+    }
+    .m-title-text {
+        font-size: 16px;
+    }
+    .m-info-title {
+        font-size: 16px;
+    }
+    .m-info-text {
+        font-size: 16px;
+    }
+    .m-head-image {
+        width: 80%;
+        margin-top: 15px;
+    }
+    .m-block {
+        margin-top: 30px;
+    }
+    .m-title {
+        font-size: 18px;
+    }
+    .m-subtitle {
+        font-size: 16px;
+    }
+    .m-process-title {
+        margin-top: 5px;
+    }
+    .m-text {
+        line-height: 21px;
+    }
+    .m-process-group {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .m-process-items {
+        width: 204px;
+        margin-bottom: 40px;
+    }
+    .m-subtitle-1 {
+        font-size: 16px;
+    }
+    .m-empathize-title {
+        font-size: 16px;
+    }
+    .m-empathize-img {
+        display: none;
+    }
+    .m-bg2 {
+        bottom: 6%;
+    }
+    .m-hifi {
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .m-hifi-text {
+        width: 100%;
+        margin-right: 0;
+        text-align: center;
+    }
+    .m-hifi-des {
+        width: 310px;
+        margin-bottom: 10px;
+    }
+    .m-hifi-mob {
+        width: 190px;
+        margin-bottom: 10px;
+    }
+    .m-test-column {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .m-test-img {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .prototype-img {
+        display: none;
     }
 }
 @media (max-width: 540px) {
