@@ -159,6 +159,22 @@ body {
 .card-link:hover {
     opacity: 90%;
 }
+.projects-wrap-behealth {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-color: #EEFAF9;
+    display: flex;
+}
+.card-behealth {
+    margin-right: 100px;
+    width: 50%;
+}
+.card-image-behealth {
+    width: 30%;
+}
+.behealth-image {
+    width: 100%;
+}
 .extra-info {
     margin-top: 45px;
 }
