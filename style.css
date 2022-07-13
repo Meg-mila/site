@@ -1012,6 +1012,9 @@ body {
     .card {
         margin-right: 40px;
     }
+    .card-behealth{
+        margin-right: 40px;
+    }
     .card-subtitle {
         font-size: 22px;
         margin-top: 5px;
@@ -1185,12 +1188,21 @@ body {
         padding-bottom: 80px;
         padding-top: 80px;
     }
+    .projects-wrap-behealth {
+        padding-bottom: 80px;
+        padding-top: 80px;
+    }
     .cards-section {
         flex-wrap: wrap-reverse;
         justify-content: center;
         align-self: center;
     }
     .card {
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+    }
+    .card-behealth {
         margin: 0 auto;
         width: 100%;
         text-align: center;
