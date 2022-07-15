@@ -91,6 +91,7 @@ body {
 }
 .content {
     display: flex;
+    flex: auto;
 }
 .projects-wrap {
     padding-top: 150px;
@@ -119,6 +120,7 @@ body {
 .cards-section {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .card {
     margin-right: 100px;
