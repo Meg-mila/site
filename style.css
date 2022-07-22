@@ -90,8 +90,7 @@ body {
     width: 100%;
 }
 .content {
-    display: flex;
-    flex: auto;
+    width: 100%;
 }
 .projects-wrap {
     padding-top: 150px;
@@ -692,6 +691,132 @@ body {
     border-radius: 5px;
 }
 
+    /* Google Hiking */
+
+.survey-r {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.survey-image {
+    width: 70%;
+    border-radius: 10px;
+    filter: drop-shadow(0px 0px 6px rgba(0, 0, 0, 0.05));
+}
+.survey-img {
+    width: 100%;
+}
+.survey-image-l {
+    width: 40%;
+    border-radius: 10px;
+    filter: drop-shadow(0px 0px 6px rgba(0, 0, 0, 0.05));
+}
+.survey-image-r {
+    width: 60%;
+    border-radius: 10px;
+    filter: drop-shadow(0px 0px 6px rgba(0, 0, 0, 0.05));
+    margin-left: 20px;
+}
+.survey-text-b {
+    width: 60%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B1B1B;
+    margin-left: 30px;
+}
+.survey-text-r {
+    width: 30%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B1B1B;
+    margin-left: 30px;
+}
+.survey-text-l {
+    width: 30%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B1B1B;
+    margin-right: 30px;
+}
+.userStory {
+    margin-top: 20px;
+}
+.userStory-item-l, .userStory-item-r {
+    font-weight: 400;
+    font-size: 16px;
+    padding: 16px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: fit-content;
+}
+.userStory-item-r {
+    margin-top: 20px;
+    margin-left: auto;
+}
+.hifi-wireframes-mobile {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.hifi-wireframes-mobile:nth-of-type(even) {
+    flex-direction: row-reverse;
+}
+.hifi-wireframes-mobile-images {
+    width: 50%;
+}
+.hifi-wireframes-mobile-img {
+    width: 100%;
+}
+.hifi-wireframes-mobile-item-r {
+    width: 50%;
+    margin-left: 80px;
+}
+.hifi-wireframes-mobile-item-l {
+    width: 50%;
+    margin-right: 80px;
+}
+.hifi-mobile-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #3671D9;
+}
+.hifi-mobile-text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #1B1B1B;
+    margin: 10px 0;
+}
+.hifi-mobile-hint {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #626365;
+    margin: 0;
+}
+.hifi-mobile-item-img {
+    width: 60%;
+    margin-top: 50px;
+    margin-left: auto;
+    filter: drop-shadow(0px 0px 6px rgba(0, 0, 0, 0.05));
+}
+.hifi-wireframes-mobile-images-b {
+    width: 70%;
+}
+.hifi-wireframes-mobile-item-r-b {
+    width: 30%;
+    margin-left: 40px;
+}
+.hifi-wireframes-mobile-item-l-b {
+    margin-right: 40px;
+    width: 30%;
+}
+
 @media (min-width: 1600px) {
     .head-wrap {
         height: 65vh;
@@ -798,6 +923,20 @@ body {
         font-size: 16px;
     }
 
+    /* Google Hiking */
+
+    .hifi-mobile-title {
+        font-size: 18px;
+    }
+    .hifi-mobile-text {
+        font-size: 16px;
+    }
+    .userStory-item-l, .userStory-item-r {
+        font-size: 14px;
+    }
+    .survey-text-r, .survey-text-l {
+        line-height: 20px;
+    }
 }
 @media (max-width: 750px) {
     .head-wrap {
@@ -993,6 +1132,73 @@ body {
         margin-right: 0;
         margin-bottom: 20px;
     }
+
+    /* Google Hiking */
+
+    .survey-r {
+        display: block;
+    }
+    .survey-image, .survey-image-l, .survey-image-r {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .survey-image-r {
+        margin-top: 20px;
+    }
+    .survey-text-r, .survey-text-l, .survey-text-b {
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .userStory {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .userStory-item-r, .userStory-item-l {
+        margin-left: 0;
+        padding: 12px;
+        text-align: center;
+    }
+    .hifi-wireframes-mobile {
+        flex-direction: column-reverse;
+        margin-top: 30px;
+    }
+    .hifi-wireframes-mobile:nth-of-type(even) {
+        flex-direction: column-reverse;
+    }
+    .hifi-wireframes-mobile-images {
+        width: 70%;
+    }
+    .hifi-wireframes-mobile-item-r, .hifi-wireframes-mobile-item-l, .hifi-mobile-hint{
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+    .hifi-mobile-item-img {
+        display: none;
+    }
+    .hifi-wireframes-mobile-item-r-b, .hifi-wireframes-mobile-item-l-b {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+    .hifi-mobile-list {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+    .hifi-mobile-title {
+        text-align: center;
+    }
+    .hifi-wireframes-mobile-images-b {
+        width: 90%;
+    }
+
 }
 @media (max-width: 540px) {
     .head-bg1 {
@@ -1099,11 +1305,14 @@ body {
     }
     .behealth-head-image {
         width: 50%;
-        margin-top: 20px;
+        margin-top: 30px;
     }
     .behealth-block-images {
         padding: 30px 0;
         flex-direction: column;
+    }
+    .prototype-btn {
+        margin-top: 25px;
     }
     .b-img {
         width: 60%;
@@ -1121,5 +1330,14 @@ body {
     }
     .hifi-mobile-item {
         width: 70%;
+    }
+
+    /* Google Hiking */
+
+    .hifi-wireframes-mobile-images, .hifi-wireframes-mobile-images-b {
+        width: 100%;
+    }
+    .survey-image, .survey-image-l, .survey-image-r {
+        width: 100%;
     }
 }
