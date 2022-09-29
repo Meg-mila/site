@@ -392,6 +392,9 @@ body {
     color: #1B1B1B;
     margin: 10px 0 0 0;
 }
+.m-div-img {
+    margin-top: 20px;
+}
 .m-subtitle {
     font-weight: 400;
     font-size: 18px;
