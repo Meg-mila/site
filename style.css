@@ -72,10 +72,11 @@ body {
     margin-right: 20px;
 }
 .head-content__title {
-    font-size: 36px;
+    font-size: 42px;
     color: #006D77;
     font-weight: 500;
     margin-bottom: 5px;
+    margin-top: 5px;
 }
 .head-content__subtitle {
     font-size: 36px;
@@ -122,8 +123,8 @@ body {
     justify-content: space-between;
 }
 .card {
-    margin-right: 100px;
-    width: 40%;
+    margin-right: 80px;
+    width: 50%;
 }
 .card-image {
     width: 60%;
@@ -132,12 +133,22 @@ body {
     width: 100%;
 }
 .card-subtitle {
-    font-size: 32px;
-    font-weight: 700;
+    font-size: 48px;
+    font-weight: 500;
     color: #006D77;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.card-chips {
+    font-size: 14px;
+    padding: 6px 12px;
+    border: 1px solid #006D77;
+    border-radius: 43px;
+    width: fit-content;
+    font-weight: 400;
 }
 .card-text {
-    font-weight: 500;
+    font-weight: 400;
     font-size: 18px;
     color: #1B1B1B;
     margin-top: 5px;
@@ -148,17 +159,51 @@ body {
 }
 .card-link {
     text-decoration: none;
-    color: #EDF6F9;
-    font-weight: 600;
+    color: #1B1B1B;
+    font-weight: 500;
     font-size: 14px;
     text-transform: uppercase;
-    background-color: #006D77;
-    padding: 13px 50px;
-    border-radius: 50px;
-    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    padding-right: 20px;
+    border-radius: 60px;
+    height: 48px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.7s;
+}
+.card-link:before {
+    content: url("img/btn.svg");
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+}
+.card-btn_text {
+    padding-left: 55px;
+    position: relative;
+    z-index: 2;
+}
+.btn-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(-100%);
+    width: 100%;
+    height: 100%;
+    background: #006D77;
+    transition: all .2s ease-out;
+    z-index: 1;
 }
 .card-link:hover {
-    opacity: 90%;
+    color: #FFFFFF;
+}
+.card-link:hover .btn-bg{
+    transform: translateX(0%);
 }
 .projects-wrap-behealth {
     padding-top: 150px;
@@ -167,7 +212,7 @@ body {
     display: flex;
 }
 .card-behealth {
-    margin-right: 100px;
+    margin-right: 80px;
     width: 50%;
 }
 .card-image-behealth {
@@ -818,6 +863,71 @@ body {
     margin-right: 40px;
     width: 30%;
 }
+/* contact me */
+.contact {
+    position: relative;
+}
+.contact-bg {
+    background-color: #EDF6F9;
+    width: 86px;
+    height: 86px;
+    border-radius: 100%;
+    position: absolute;
+    left: 20%;
+    top: 100%;
+    animation: floater 12s infinite;
+    transition: ease 0.5s;
+    z-index: -1;
+}
+.contact-bg1 {
+    background-color: #EDF6F9;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    position: absolute;
+    left: 70%;
+    top: 47%;
+    animation: floater 12s infinite;
+    transition: ease 0.5s;
+    z-index: -1;
+}
+.contact-bg2 {
+    background-color: #EDF6F9;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    position: absolute;
+    left: 60%;
+    top: 130%;
+    animation: floater 12s infinite;
+    transition: ease 0.5s;
+    z-index: -1;
+}
+@keyframes floater {
+    0%{transform: scale(1);transition: ease 0.5s;}
+    50%{transform: scale(2);transition: ease 0.5s;}
+    100%{transform: scale(1);transition: ease 0.5s;}
+}
+.contact-me {
+    margin-top: 100px;
+    text-align: center;
+}
+.contact-me_H1 {
+    font-size: 36px;
+    font-weight: 400;
+    position: relative;
+}
+.contact-me_H2 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.contact-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
 
 @media (min-width: 1600px) {
     .head-wrap {
@@ -842,6 +952,12 @@ body {
     }
     .card-subtitle {
         font-size: 28px;
+    }
+    .card-chips {
+        font-size: 12px;
+    }
+    .card-link-wrap {
+        margin-top: 30px;
     }
     .about-section {
         align-items: flex-start;
@@ -876,6 +992,9 @@ body {
     }
     .extra-info {
         text-align: center;
+    }
+    .contact-me_H1 {
+        font-size: 28px;
     }
     /* MIRROR */
     .m-name-title {
@@ -970,7 +1089,6 @@ body {
         margin-top: 35px;
     }
     .card-link {
-        padding: 12px 36px;
         font-size: 12px;
     }
     .title-social {
@@ -1002,6 +1120,12 @@ body {
     }
     .about-text {
         line-height: 22px;
+    }
+    .contact-me_H1 {
+        font-size: 22px;
+    }
+    .contact-me_H2 {
+        font-size: 18px;
     }
 
     /* MIRROR */
@@ -1262,6 +1386,15 @@ body {
     }
     .card-subtitle {
         font-size: 18px;
+    }
+    .card-chips {
+        margin: auto;
+    }
+    .card-link {
+        margin: auto;
+    }
+    .card-link:before {
+        left: -55px;
     }
     .about-text {
         line-height: 22px;
