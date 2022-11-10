@@ -6,19 +6,15 @@
     <meta charset="utF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <link
-            href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap"
-            rel="stylesheet"
-    />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16x16.png">
-    <link rel="manifest" href="/static/site.webmanifest">
-    <link rel="mask-icon" href="/static/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#ffffff">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="76x76" href="static/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="static/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/favicon-16x16.png">
+    <link rel="manifest" href="static/site.webmanifest">
+    <link rel="mask-icon" href="static/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <meta property="og:title" content="Margarita Perepecho" />
     <meta property="og:type" content="website" />
@@ -35,9 +31,6 @@
     </script>
 </head>
 <body>
-    <div class="head-bg1">
-        <img src="img/bg-main.svg" alt="background" class="head-bg1_img">
-    </div>
     <div class="wrapper">
         <div class="head">
             <header class="header wrap">
@@ -45,17 +38,17 @@
                 <img src="img/logo.svg" alt="logo" class="logo" />
             </a>
                 <div class="menu">
-                    <a href="About.html" class="menu-link">About me</a>
+                    <a href="About.html" class="menu-link" style="color: #EC255A">About me</a>
                     <a href="#anchor-projects" class="menu-link">Projects</a>
                     <a href="Contact.html" class="menu-link">Contact me</a>
                 </div>
         </header>
             <div class="about-section wrap">
             <div class="about-section-img">
-                <img src="img/my-photo.jpeg" alt="photo" class="about-img">
+                <img src="img/my-photo.png" alt="photo" class="about-img">
             </div>
             <div class="about-content">
-                <p class="about-text">Hi there! I’m Margarita Perepecho a UX/UI Designer based in London, UK.</p>
+                <p class="about-text_big">I’m Margarita Perepecho a UX/UI Designer based in London, UK.</p>
                 <p class="about-text">I worked 5 years in an insurance company and 2 of these years I worked as team manager. Participating in platform improvement meetings with the development team and sales department. It taught me how to communicate with people and empathise with them. I’ve studied as a front-end developer for almost a year as a full-time student, but decided to jump deeper into UX/UI design. Why? Just because I'm passionate about creating amazing products for others, making their lives easier, happier and brighter.</p>
                 <p class="about-text">I learned UX/UI design by watching online tutorials, reading articles. Then I decided to take the Google course. It helped me understand all the stages of creating a design. I’ve graduated from the UX Academy and conducted user interviews and surveys during this course. I realised that the open ended questions are key and help you create the best solution for your users and business. The main lesson from my education is to empathise with your users and create clear and user-friendly designs. I can work with different tools: Figma, Adobe XD, Miro, InVision, so I’m a fast learner. I know how to use ready-made UI kits and component libraries, which helps me save time. I realised that creating a design is not just just wireframes and prototypes, it’s a big and important process that starts from the research stage.</p>
                 <p class="about-text">Now I feel confident and enjoy practising a user-centred design process, doing user research, creating wireframes and prototypes, and creating clean and aesthetic designs. Also, my education as a front-end developer helped me understand how to create a design correctly and how I can transfer it to other developers.</p>
@@ -87,6 +80,11 @@
                 </div>
                 <div class="experience-1">
                     <h2 class="experience-title">Experience</h2>
+                    <div class="experience-item">
+                        <a href="https://www.linkedin.com/company/gatheraid/" target="_blank" class="experience-subtitle">GatherAid (Internship)</a>
+                        <div class="experience-text">UX/UI designer</div>
+                        <div class="experience-time">Oct 2022 - Nov 2022</div>
+                    </div>
                     <div class="experience-item">
                         <a href="https://www.renins.ru/" target="_blank" class="experience-subtitle">Renaissance Insurance</a>
                         <div class="experience-text">Team Manager</div>
@@ -136,7 +134,10 @@
             </div>
         </div>
         <div class="extra-info wrap">
-            <a href="/static/resume.pdf" target="_blank" class="CV">Download my CV</a>
+            <div class="CV-btn">
+                <img src="img/Download.svg" alt="" class="download">
+                <a href="/static/resume.pdf" target="_blank" class="CV">my CV</a>
+            </div>
         </div>
         <div class="social-section wrap">
             <h3 class="title-social">Let’s connect</h3>
