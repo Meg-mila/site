@@ -1011,11 +1011,6 @@ body {
     font-weight: bold;
 }
 
-@media (min-width: 1600px) {
-    .head-wrap {
-        height: 65vh;
-    }
-}
 @media (max-width: 980px) {
     .logo {
         width: 70px;
