@@ -174,7 +174,7 @@ body {
     width: 100%;
 }
 .card-subtitle {
-    font-size: 48px;
+    font-size: 36px;
     font-weight: 400;
     colour: #202020;
     margin-bottom: 5px;
@@ -190,8 +190,8 @@ body {
 }
 .card-text {
     font-weight: 400;
-    font-size: 18px;
-    color: #1B1B1B;
+    font-size: 16px;
+    color: #464646;
     margin-top: 5px;
     margin-bottom: 5px;
     line-height: 23px;
